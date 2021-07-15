@@ -12,7 +12,7 @@
     * [beautifulsoup](https://pypi.org/project/beautifulsoup4/) (for parsing HTML,XML)
     * [selenium](https://pypi.org/project/selenium/) (simulate web browser)(Less investigating effort but low effeciency)
 
-## :thinking_face: Main Idea 
+## :bulb: Main Idea 
 
 The data appeared on webpage is fetched from backend server via our web browser when we visit a url or we trigger some event on the webpage. To fetch data automatically, we simulate the same action our browser does.
 
