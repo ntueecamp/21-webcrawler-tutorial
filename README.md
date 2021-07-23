@@ -6,11 +6,21 @@
 
 
 ## Tools for Crawling
-* curl (low level)
+* [curl](https://curl.se/) (low level)
 * python
     * [requests](https://pypi.org/project/requests/) 
     * [beautifulsoup](https://pypi.org/project/beautifulsoup4/) (for parsing HTML,XML)
     * [selenium](https://pypi.org/project/selenium/) (simulate web browser)(Less investigating effort but low effeciency)
+
+## 📖 Background Knowledge
+![web request and response](https://www.oreilly.com/library/view/restful-java-web/9781788294041/assets/1f2d75e2-4a17-4e1f-9abe-5de9b312efeb.png)
+(picture from [Understanding the HTTP request-response model](https://www.oreilly.com/library/view/restful-java-web/9781788294041/1889f99d-f907-41c3-a0f0-925bbf1d3825.xhtml))
+
+* web requests and response
+* stateless
+
+> Usefull website for discovering : [get-request-example](https://reqbin.com/req/nfilsyk5/get-request-example)
+
 
 ## Main Idea
 
