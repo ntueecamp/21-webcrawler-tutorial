@@ -1,4 +1,4 @@
-# Web Crawler Tutorial
+# :fire::fire: Web Crawler Tutorial :fire::fire: 
 
 > An automated script for retrieving data from web or sending request to web servers.
 
@@ -22,7 +22,7 @@
 > Usefull website for discovering : [get-request-example](https://reqbin.com/req/nfilsyk5/get-request-example)
 
 
-## Main Idea
+## :bulb: Main Idea
 
 The data appeared on webpage is fetched from backend server via our web browser when we visit a url or we trigger some event on the webpage. To fetch data automatically, we simulate the same action our browser does.
 
@@ -32,7 +32,7 @@ The data appeared on webpage is fetched from backend server via our web browser 
 
 *Most of the time, you will do the two steps repeatedly*
 
-## Exercise 1
+## :construction_worker: Exercise 1 
 
 URL : http://www.example.com
 
@@ -77,7 +77,7 @@ In the python script,
 * `session`  help us to save the state of the connection (cookie...). Usually the browser does the job. Notice that web request itself is stateless, so we need to use other methods to save our state information.
 * `session.get` we use `GET` method here. `GET`,`POST`,`PUT`,`DELETE` are the 4 common methods in http protocal.
 
-## Exercise 2
+## :construction_worker: Exercise 2
 Let's crawl and parse html page!
 URL : https://web.ee.ntu.edu.tw/
 ```python=
@@ -113,7 +113,7 @@ for i in range(len(honor_content)):
     print("{} - {}".format(honor_title[i].string,honor_content[i].string))
 ```
 
-## IG Web Crawler
+## :hearts: IG Web Crawler 
 
 The scenario is more difficult for authentication websites.
 
@@ -222,3 +222,17 @@ req_unlike = session.post(UNLIKE_URL,allow_redirects = True)
 session.headers.update({'x-csrftoken':req_unlike.cookies['csrftoken']})
 print(req_unlike.text)
 ```
+
+## :100: Conclusion  
+1. Concept of web crawler
+2. Concept of web request and response
+3. Implementation of crawler in python
+4. Parsing html code in python
+5. Concept of CSRF token
+6. Hands-on experiment on instagram crawling.
+
+## 🚀 Some Directions For Futher Projects
+1. [cloudscraper](https://github.com/VeNoMouS/cloudscraper)
+2. Posting Instagram Feed
+3. Crawl Other Website
+4. Hack the Encryption of instagram login
