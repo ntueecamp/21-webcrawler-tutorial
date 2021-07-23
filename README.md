@@ -165,7 +165,9 @@ If you login sucessfully, you should see your Instagram ID.
 
 
 Instagram uses enc_password to send our password to their server. We can get the enc_password by google chrome developers tool. 
-![](https://i.imgur.com/p3My5nG.png)
+
+![](https://i.imgur.com/l8rVPld.png)
+
 However, the encoding string has something to do with timestamp, so the best way is to generate the encoding ourself every time we want to send the login request. For more information about the encoding that instagram made, checkout github forum. Some geeks are working on it.
 
 ### Get Instagram Feed
